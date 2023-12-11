@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Signup Form</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        input{
+            height: 30px;
+            width: 270px;
+            background-color: rgb(52, 51, 51);
+            border-radius: 10px;
+            color: white;
+        }
+        button{
+            height: 30px;
+            width: 100px;
+            background-color: green;
+            color: white;
+            border-radius: 20px;
+            margin-left: 50px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        select{
+            height: 30px;
+            width: 200px;
+            color: white;
+            background-color:rgb(52, 51, 51) ;
+        }
+        div{
+            margin: 15px;
+        }
+        .age input{
+            width: 100px;
+        }
+        label{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="text-align: center;">Sign Up</h2>
+    <form action="signup.php" method="post">
+        <div class="name">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+        </div>
+        <div class="email">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        </div>
+        <div class="country">
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="usa">United States</option>
+            <option value="canada">Canada</option>
+            <option value="uk">United Kingdom</option>
+            <option value="India">United Kingdom</option>
+        </select>
+        </div>
+        <div class="age">
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+        </div>
+        <div class="user">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            </div>
+            <div class="pass">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            </div>
+        <button>Submit</button>
+    </form>
+</body>
+</html>

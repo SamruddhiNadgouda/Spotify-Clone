@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>My Music Playlists</title>
+    <style>
+        .head{
+            display: flex;
+        }
+        .nav1{
+            display: flex;
+            flex-direction: column;
+        }
+        .icon1, .icon2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgb(44, 43, 43);
+            margin: 5px;
+            width: 120px;
+            border-radius: 10px;
+        }
+        .nav1 i{
+            margin: 15px;
+            color: rgb(150, 150, 149);
+            font-size: 20px;
+        }
+        .icon2{
+            height: 550px;
+            margin: 5px;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            color: #ffff;
+            padding: 15px;
+            padding-left: 30px;
+        }
+        .playlist{
+            display: flex;
+        }
+        .song {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            border: none;
+            background-color: rgb(52, 51, 51);
+            padding: 5px;
+            margin: 10px;
+        }
+        .song:hover {
+            background-color: black;
+            color:white;
+        }
+        .song h1{
+            font-size: 40px;
+        }
+        input{
+            background-color:rgb(52, 51, 51) ;
+            height: 35px;
+            width: 200px;
+            border-radius: 15px;
+            border: none;
+            color: white;
+        }
+        input:hover{
+            border: 2px solid white;
+        }
+        img{
+            height: 200px; 
+            margin: 10px;
+        }
+        button{
+            height: 40px;
+            width: 90px;
+            border-radius: 20px;
+        }
+        .song-details{
+            color: white;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="head">
+        <div class="nav1">
+            <i class="fa-solid fa-ellipsis"></i>
+            <div class="icon1">
+                <a href="index.html" style="color: white; text-decoration: none;"><i class="fa-solid fa-house"></i></a>
+                <a href="search.html" style="color: white; text-decoration: none;"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+            <div class="icon2">
+                <i class="fa-solid fa-bookmark"></i>
+            </div>
+        </div>
+        <div class="body1">
+            <header>
+                <h1>Created Playlists</h1>
+            </header>
+            <div class="create" style="margin: 15px;">
+                <a href="create.html" style="color: black; text-decoration: none;"><button>Create</button></a>
+            </div>
+            <div class="playlist">
+                <div class="song">
+                    <img src="image6.jpg" alt="Song 1 Cover">
+                    <div class="song-details">
+                        <h1>Vibes</h1>
+                        <p>Samruddhi Nadgouda</p>
+                        <p>52 Songs</p>
+                    </div>
+                </div>
+                <div class="song">
+                    <img src="image7.jpg" alt="Song 2 Cover">
+                    <div class="song-details">
+                        <h1>Mood</h1>
+                        <p>Vedantika Wagh </p>
+                        <p>40 Songs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

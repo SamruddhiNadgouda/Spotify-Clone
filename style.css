@@ -1,0 +1,200 @@
+body{
+    background-color: black;
+    font-family: Arial;
+    color: white;
+    margin: 0%;
+    width: 1350px;
+}
+header{
+    display: flex;
+}
+.navbar{
+    height: 100px;
+    width: 350px;
+    background-color: rgb(30, 29, 29);
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 20px;
+}
+.navbar i{
+    padding: 10px;
+    font-size: 18px;
+}
+.navbar .home{
+    font-weight: bold;
+}
+.navbar .search{
+    color: rgb(177, 175, 175);
+}
+.panel{
+    height: 585px;
+    width: 370px;
+    background-color: rgb(30, 29, 29);
+    border-radius: 5px;
+    border: none;
+}
+.library{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.library .name, .plus{
+    margin:10px 20px 10px 5px;
+    font-size: 20px; 
+}
+.create-playlist , .podcast{
+    height: 150px;
+    width: 340px;
+    background-color: rgb(44, 43, 43);
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 0px 0px 15px;
+}
+.yours p{
+    font-size: 15px;
+}
+.yours h3{
+    font-size: 18px;
+}
+.yours  button{
+    height: 30px;
+    width: 120px;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 15px;
+    border: none;
+    margin-top: 5px;
+}
+.footer{
+    margin-top: 40px;
+    margin-left: 10px;
+    font-size: 12px;
+    color: rgb(164, 163, 163);
+}
+.footer div{
+    margin-top: 15px;
+}
+.footer a{
+    margin: 8px;
+}
+.footer button{
+    width: 100px;
+    height: 40px;
+    margin-top: 25px;
+    border: 0.5px solid rgb(202, 200, 200);
+    border-radius: 20px;
+    font-weight: 700;
+    background-color:black;
+    color: white;
+}
+.body{
+    height: 650px;
+    width: 80%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-between;
+    padding: 20px;
+    margin-left: 10px;
+}
+.arrow i{
+    font-size: 20px;
+    margin: 10px;
+    color: rgb(133, 131, 131);
+}
+.log-in button{
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.logo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.body-content{
+    background-color: rgb(30, 29, 29);
+    padding: 10px;
+    width: 100%;
+}
+.playlist1{
+   display: flex;
+   justify-content: space-evenly;
+}
+.box{
+    height: 250px;
+    width: 180px;
+    background-color:rgba(18, 18, 18, 0.675);
+    margin: 10px;
+    border-radius: 7px;
+    font-size: 14px;
+    padding: 10px;
+}
+.box img{
+    height: 150px;
+    width: 160px;
+    margin: 5px;
+    border-radius: 7px;
+}
+.box h3{
+    margin: 0px;
+}
+.box p{
+    color: rgba(255, 255, 255, 0.51);
+}
+.output{
+    height:200px ;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 15px;
+}
+.output .link{
+    display: flex;
+    flex-direction: column;
+}
+.link a{
+    margin: 5px;
+    text-decoration: none;
+    color: rgba(214, 213, 213, 0.821);
+}
+.icon i{
+    font-size: 20px;
+    margin: 5px;
+}
+.line{
+    height: 0px;
+    border: 0.2px solid rgba(255, 255, 255, 0.325);
+}
+footer{
+    background: linear-gradient(90deg, rgba(235,21,216,1) 0%, rgba(196,18,180,1) 21%, rgba(0,212,255,1) 100%);
+    height: 65px;
+    width: 1500px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+footer p{
+    font-size: 15px;
+}
+footer button{
+    width: 120px;
+    height: 35px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 20px;
+    border: none;
+    margin: 15px;
+}

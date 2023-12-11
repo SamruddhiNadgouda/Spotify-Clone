@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>search</title>
+    <style>
+        .head{
+            display: flex;
+        }
+        .nav1{
+            display: flex;
+            flex-direction: column;
+        }
+        .icon1, .icon2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgb(44, 43, 43);
+            margin: 5px;
+            width: 120px;
+            border-radius: 10px;
+        }
+        .nav1 i{
+            margin: 15px;
+            color: rgb(150, 150, 149);
+            font-size: 20px;
+        }
+        .icon2{
+            height: 550px;
+            margin: 5px;
+        }
+        .body1{
+            width: 95%;
+            display: flex;
+            margin: 10px;
+            margin: 10px;
+        }
+        .body1 input{
+            height:45px;
+            width: 290px;
+            border-radius: 10px;
+            border: none;
+            margin: 15px;
+            padding-left: 10px;
+            background-color: rgb(31, 30, 30);
+        }
+        .body1 input:hover{
+            border: 2px solid white;
+        }
+        .arrow1 i{
+            font-size: 20px;
+            margin: 15px;
+            color: rgb(133, 131, 131);
+        }
+        button{
+            height: 45px;
+            width: 90px;
+            border-radius: 10px;
+            border: none;
+            background-color: rgb(31, 30, 30);
+            color: white;
+            margin: 17px;
+        }
+        .body1 button:hover{
+            border: 2px solid white;
+        }
+    </style>
+</head>
+<body>
+    <div class="head">
+        <div class="nav1">
+            <i class="fa-solid fa-ellipsis"></i>
+            <div class="icon1">
+                <a href="index.html" style="color: white; text-decoration: none;"><i class="fa-solid fa-house"></i></a>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="icon2">
+                <i class="fa-solid fa-bookmark"></i>
+            </div>
+        </div>
+        <div class="body1">
+            <div class="arrow1">
+                <i class="fa-solid fa-angle-left"></i>
+                <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <input placeholder="Search" class="input-search">
+            <button type="submit" name="submit"> Search </button>
+        </div>
+    </div>
+</body>
+</html>

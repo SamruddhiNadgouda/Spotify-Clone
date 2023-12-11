@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Music Playlist</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .playlist {
+            list-style-type: none;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+
+        }
+        input{
+            width: 250px;
+            height: 30px;
+            margin: 20px;
+            background-color: rgb(52, 51, 51);
+            border-radius: 20px;
+            color: white;
+        }
+        button{
+            height: 30px;
+            width: 100px;
+            background-color: green;
+            color: white;
+            border-radius: 20px;
+            margin-left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="head">
+        <h1>Create Your Podcasts</h1>
+    </div>
+    <div class="playlist">
+        <div class="name">
+            <label for="Playlist" style="color: white; margin-left: 20px;">Podcast Name : </label>
+            <input type="text" id="Playlist" name="username" required>  
+        </div>
+        <div class="des">
+            <label for="Playlist" style="color: white; margin-left: 30px;">Description : </label>
+            <input type="text" id="Playlist" name="username" style="height:100px;">
+        </div>
+        <div class="create-name">
+            <label for="Playlist" style="color: white; margin-left: 20px;">Creator Name : </label>
+            <input type="text" id="Playlist" name="name" required>  
+        </div>
+        <div class="no">
+            <label for="Playlist" style="color: white; margin-left: 30px;">No of episodes : </label>
+            <input type="number" id="song" name="song" required style="width: 150px; padding-right: 15px;">
+        </div>
+        <div class="duration">
+            <label for="Playlist" style="color: white; margin-left: 60px;">Durations : </label>
+            <input type="text" id="song" name="song" required style="width: 150px; padding-right: 15px;">
+        </div>
+    </div>
+    <button>Submit</button>
+</body>
+</html>
